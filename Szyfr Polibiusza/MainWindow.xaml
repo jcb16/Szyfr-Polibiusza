@@ -16,12 +16,12 @@
         <TextBox Name="PlainTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,100,0,0" Width="171" Height="50"/>
 
         <Label Content="Szyfrogram:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="638,69,0,0" Width="78"/>
-        <TextBlock Name="EncryptedTextBlock" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="587,92,0,0" Width="171" Height="50" TextWrapping="Wrap"/>
+        <TextBlock Name="EncryptedTextBlock" FontFamily="Arial" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="587,92,0,0" Width="171" Height="50" TextWrapping="Wrap"/>
 
         <Button Name="EncryptButton" Content="Encrypt" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="300,100,0,0" Width="100" Click="EncryptButton_Click" Height="44"/>
 
         <Label Content="Tekst jawny:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="637,212,0,0" Width="80"/>
-        <TextBlock Name="DecryptedTextBlock" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="587,235,0,0" Width="186" Height="50" TextWrapping="Wrap"/>
+        <TextBlock Name="DecryptedTextBlock" FontFamily="Arial" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="587,252,0,0" Width="186" Height="50" TextWrapping="Wrap"/>
 
         <Button Name="DecryptButton" Content="Decrypt" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="300,254,0,0" Width="100" Click="DecryptButton_Click" Height="44"/>
         <Label Content="Szyfrogram:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="59,217,0,0"/>
