@@ -13,19 +13,19 @@
         <TextBox Name="ShiftTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="511,116,0,0" Width="50"/>
 
         <Label Content="Tekst jawny:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="59,74,0,0"/>
-        <TextBox Name="PlainTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,100,0,0" Width="171" Height="50"/>
+        <TextBox TextWrapping ="Wrap" Name="PlainTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,100,0,0" Width="171" Height="73"/>
 
         <Label Content="Szyfrogram:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="638,69,0,0" Width="78"/>
-        <TextBlock Name="EncryptedTextBlock" FontFamily="Arial" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="587,92,0,0" Width="171" Height="50" TextWrapping="Wrap"/>
+        <TextBlock Name="EncryptedTextBlock" FontFamily="Arial" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="587,92,0,0" Width="171" Height="81" TextWrapping="Wrap"/>
 
         <Button Name="EncryptButton" Content="Encrypt" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="300,100,0,0" Width="100" Click="EncryptButton_Click" Height="44"/>
 
         <Label Content="Tekst jawny:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="637,212,0,0" Width="80"/>
-        <TextBlock Name="DecryptedTextBlock" FontFamily="Arial" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="587,252,0,0" Width="186" Height="50" TextWrapping="Wrap"/>
+        <TextBlock Name="DecryptedTextBlock" FontFamily="Arial" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="587,252,0,0" Width="186" Height="106" TextWrapping="Wrap"/>
 
         <Button Name="DecryptButton" Content="Decrypt" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="300,254,0,0" Width="100" Click="DecryptButton_Click" Height="44"/>
         <Label Content="Szyfrogram:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="59,217,0,0"/>
-        <TextBox Name="EncryptedTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,248,0,0" Width="171" Height="50"/>
+        <TextBox Name="EncryptedTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,248,0,0" Width="171" Height="80" TextWrapping ="Wrap"/>
         <Label Content="Klucz" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="457,263,0,0"/>
         <TextBox Name="ShiftTextBox2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="511,267,0,0" Width="50"/>
     </Grid>
